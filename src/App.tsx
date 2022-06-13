@@ -109,16 +109,16 @@ function App() {
       <C.Info>
 
         <C.LogoWrapper>
-          <C.LogoTitle>Dev Memória</C.LogoTitle>
+          <C.LogoTitle>Dev Memory</C.LogoTitle>
           <C.LogoDescription>powered by <span>matheus2phobia</span></C.LogoDescription>
         </C.LogoWrapper>
 
         <C.InfoArea>
-          <InfoItem label="Tempo" value={formatTimeElapsed(timeElapsed)} />
-          <InfoItem label="Movimentos" value={moveCount.toString()} />
+          <InfoItem label="Time" value={formatTimeElapsed(timeElapsed)} />
+          <InfoItem label="Movements" value={moveCount.toString()} />
         </C.InfoArea>
 
-        <Button label='Reiniciar' icon={restartIcon} onClick={resetAndCreateGrid}/>
+        <Button label='Restart' icon={restartIcon} onClick={resetAndCreateGrid}/>
 
       </C.Info>
 
